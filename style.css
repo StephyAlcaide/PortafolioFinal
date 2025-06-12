@@ -72,3 +72,51 @@ footer {
   margin-top: 40px;
 }
 
+/* Estilo para proyectos */
+#proyectos {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.proyecto {
+  background-color: #fff0f5;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.proyecto h3 {
+  color: #e07a8c;
+  margin-top: 0;
+}
+
+.logo-timbrarte {
+  width: 180px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.logo-timbrarte:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f8b5c2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e07a8c;
+}
