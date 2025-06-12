@@ -120,3 +120,12 @@ footer {
 .btn:hover {
   background-color: #e07a8c;
 }
+#contacto p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+#contacto i {
+  color: #e07a8c;
+  margin-right: 8px;
+}
