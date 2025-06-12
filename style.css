@@ -1,86 +1,46 @@
-/* Fuente y colores base */
+
+/* styles.css */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-/* Menú de navegación */
 header {
-    background-color: #f8b5c2;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background-color: #4a90e2;
+  color: white;
+  padding: 2em;
+  text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #b6e2d3;
-    padding: 8px 16px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
 
-nav ul li a:hover {
-    background-color: #94d2bd;
-    transform: scale(1.05);
+.proyecto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
-/* Títulos y texto */
-main {
-    padding: 40px 20px;
-    text-align: center;
+.proyecto h3 {
+  margin-top: 0;
 }
 
-h1 {
-    font-size: 3rem;
-    color: #e07a8c;
-    margin-bottom: 0;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #666;
-    margin-top: 0;
-}
-
-p {
-    font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto 10px;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        padding: 0 10px;
-        font-size: 1rem;
-    }
+footer {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1em;
+  text-align: center;
 }
